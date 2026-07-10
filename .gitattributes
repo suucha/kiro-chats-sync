@@ -1,0 +1,3 @@
+# Kiro chat sessions - auto-sanitize with Git filter
+.kiro-sessions/**/*.json filter=kiro-sessions
+.kiro-sessions/**/*.jsonl filter=kiro-sessions

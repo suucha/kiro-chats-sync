@@ -1,0 +1,6 @@
+node_modules/
+*.log
+.DS_Store
+
+# Kiro chat sessions (contains sensitive data)
+.kiro-sessions/

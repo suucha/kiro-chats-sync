@@ -1,0 +1,58 @@
+{
+  "name": "kiro-chats-sync",
+  "version": "0.1.0",
+  "description": "Sync Kiro IDE chat sessions to your project directory with symlinks and auto-sanitization",
+  "type": "module",
+  "bin": {
+    "kiro-chats-sync": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node bin/cli.js --dry-run",
+    "test:verbose": "node bin/cli.js --dry-run --verbose",
+    "test:fix": "node bin/cli.js --fix --dry-run --verbose",
+    "test:sanitize": "node bin/cli.js --check --verbose",
+    "dev": "node bin/cli.js",
+    "dev:fix": "node bin/cli.js --fix",
+    "link": "npm link",
+    "unlink": "npm unlink -g kiro-chats-sync"
+  },
+  "keywords": [
+    "kiro",
+    "kiro-ide",
+    "chat",
+    "session",
+    "workspace",
+    "sync",
+    "symlink",
+    "sanitize",
+    "security",
+    "privacy",
+    "git",
+    "pre-commit"
+  ],
+  "author": "Suucha Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suucha/kiro-chats-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suucha/kiro-chats-sync/issues"
+  },
+  "homepage": "https://github.com/suucha/kiro-chats-sync#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    ".gitfilters/",
+    "README.md"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10"
+  }
+}
