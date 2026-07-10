@@ -1,5 +1,5 @@
 {
-  "name": "kiro-chats-sync",
+  "name": "@suucha/kiro-chats-sync",
   "version": "0.1.0",
   "description": "Sync Kiro IDE chat sessions to your project directory with symlinks and auto-sanitization",
   "type": "module",
@@ -14,7 +14,7 @@
     "dev": "node bin/cli.js",
     "dev:fix": "node bin/cli.js --fix",
     "link": "npm link",
-    "unlink": "npm unlink -g kiro-chats-sync"
+    "unlink": "npm unlink -g @suucha/kiro-chats-sync"
   },
   "keywords": [
     "kiro",
