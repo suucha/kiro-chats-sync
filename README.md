@@ -56,13 +56,13 @@ This means:
 ## Installation
 
 ```bash
-npm install -g kiro-chats-sync
+npm install -g @suucha/kiro-chats-sync
 ```
 
 Or use directly with `npx`:
 
 ```bash
-npx kiro-chats-sync
+npx @suucha/kiro-chats-sync
 ```
 
 ## Usage
