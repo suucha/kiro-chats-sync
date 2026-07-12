@@ -12,6 +12,16 @@ By default, Kiro IDE stores session history in `~/.kiro/sessions/`. This tool he
 - 📝 Share development conversations with your team via Git
 - 🚀 Sessions follow your project when you move or copy it
 
+## Requirements
+
+⚠️ **Important Version Requirements:**
+
+- **Kiro IDE 1.0 or higher** is required
+- ❌ Not compatible with Kiro CLI
+- ❌ Not compatible with Kiro IDE versions below 1.0
+
+This tool is specifically designed for the session storage structure used in Kiro IDE 1.0+. Earlier versions and the CLI use different session management approaches that are not supported.
+
 ## How It Works
 
 ### Simple Structure
